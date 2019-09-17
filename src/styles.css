@@ -1,1 +1,35 @@
 /* Add application styles & imports to this file! */
+.html-icon{
+   position: absolute;
+  clip:rect(0px,150px,220px,10px);
+}
+body{
+font:15px/1.5 Arial, Helvetica,sans-serif;
+padding: 0;
+margin: 0;
+background-color: #F5F5F5
+}
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden
+}
+header{
+  background:rgb(71, 70, 69);
+  color:white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #e8491d
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+}
